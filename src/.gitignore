@@ -1,0 +1,99 @@
+# ===============================
+# Compiled Java class files
+# ===============================
+*.class
+
+# ===============================
+# Log files and temporary files
+# ===============================
+*.log
+*.tmp
+*~
+
+# ===============================
+# IDE-specific files
+# ===============================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.settings/
+.project
+.classpath
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ===============================
+# Build tools
+# ===============================
+# Maven
+target/
+.mvn/
+
+# Gradle
+.gradle/
+build/
+
+# ===============================
+# Operating system files
+# ===============================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+__pycache__/
+*.swp
+
+# ===============================
+# Local configuration files
+# ===============================
+.env
+.local
+.secret
+config.properties
+application.yml
+application.properties
+
+# ===============================
+# Dependency caches
+# ===============================
+/.classpath
+/.project
+/.settings/
+/.factorypath
+
+# ===============================
+# Other ignored files
+# ===============================
+# JAR files
+*.jar
+
+# WAR files
+*.war
+
+# EAR files
+*.ear
+
+# Test output directories
+test-output/
+surefire-reports/
+
+# ===============================
+# Optional: Ignore all hidden files
+# ===============================
+.*
+!.gitignore
